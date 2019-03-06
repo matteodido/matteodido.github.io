@@ -13,6 +13,17 @@
     
     <item>
       <title>Vacanza a Roma</title>
+      <link>https://matteodido.github.io/blog/2019-03/vacanza-a-roma/</link>
+      <pubDate>Tue, 05 Mar 2019 09:12:42 +0100</pubDate>
+      
+      <guid>https://matteodido.github.io/blog/2019-03/vacanza-a-roma/</guid>
+      <description>Ultimo giorno di vacanza a Roma
+  Fori di Traiano    Visitata in data Domenica 24 Febbraio 2019
+ </description>
+    </item>
+    
+    <item>
+      <title>Vacanza a Roma</title>
       <link>https://matteodido.github.io/post/post02/</link>
       <pubDate>Tue, 05 Mar 2019 09:12:42 +0100</pubDate>
       
@@ -20,6 +31,21 @@
       <description>Ultimo giorno di vacanza a Roma
   Fori di Traiano    Visitata in data Domenica 24 Febbraio 2019
  </description>
+    </item>
+    
+    <item>
+      <title>Aggiornamento sito</title>
+      <link>https://matteodido.github.io/blog/2019-03/aggiornamento-sito/</link>
+      <pubDate>Tue, 05 Mar 2019 08:39:42 +0100</pubDate>
+      
+      <guid>https://matteodido.github.io/blog/2019-03/aggiornamento-sito/</guid>
+      <description> Guida per aggiornare il sito tramite comandi git   Cancellare il contenuto della cartella &#34;username.github.io&#34; Aprire un terminale e nella cartella &#34;username.github.io&#34; eseguire il comando:
+git pull origin master Il quale dovrebbe confermare che è tutto aggiornato  Entrare nella cartella &#34;nomesito&#34; ed eseguire il comando:
+hugo -d ../username.github.io/ Per creare nella cartella &#34;username.github.io&#34; i file md necessari per il sito. Entrare ora nella cartella &#34;username.github.io&#34; e eseguire il comando:
+ git status Nel terminale apparirà un riassunto dei file da modificare nella repository eseguire il comando:
+ git add -all Per aggiornare i file contenuti nella repository. Eseguire il comando:
+ git commit -m &#34;Commento sull&#39;update&#34; Per dare un commento all&#39;update fatto al sito Eseguire il comando:
+ git push origin master Per caricare i file nella repository. Sarà richiesto l&#39;username e la password dell&#39;account github collegato.  </description>
     </item>
     
     <item>
