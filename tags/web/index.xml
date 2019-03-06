@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Dido&#39;s Mind</title>
+    <link>https://matteodido.github.io/tags/web/</link>
+    <description>Recent content in Web on Dido&#39;s Mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Tue, 05 Mar 2019 08:39:42 +0100</lastBuildDate>
+    
+	<atom:link href="https://matteodido.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aggiornamento sito</title>
+      <link>https://matteodido.github.io/blog/2019-03/aggiornamento-sito/</link>
+      <pubDate>Tue, 05 Mar 2019 08:39:42 +0100</pubDate>
+      
+      <guid>https://matteodido.github.io/blog/2019-03/aggiornamento-sito/</guid>
+      <description>Questa guida vuole semplificare il processo di upload di un sito realizzato con GitHub Pages, e Hugo WebDesign.  entrare nella cartella  e cancellarne il contenuto.
+ aprire un terminale e nella cartella &amp;ldquo;username.github.io&amp;rdquo; eseguire il comando:
+   git pull origin master
+ Il quale consente di aggiornare il contenuto della cartella.</description>
+    </item>
+    
+  </channel>
+</rss>
