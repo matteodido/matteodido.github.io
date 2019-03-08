@@ -6,10 +6,21 @@
     <description>Recent content in Tutorial on Dido&#39;s Mind</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Tue, 05 Mar 2019 08:39:42 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 07 Mar 2019 11:20:42 +0100</lastBuildDate>
     
 	<atom:link href="https://matteodido.github.io/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Setup i3wm su nuova macchina</title>
+      <link>https://matteodido.github.io/blog/2019-03/setup-i3wm-su-nuova-macchina/</link>
+      <pubDate>Thu, 07 Mar 2019 11:20:42 +0100</pubDate>
+      
+      <guid>https://matteodido.github.io/blog/2019-03/setup-i3wm-su-nuova-macchina/</guid>
+      <description>Installazione di i3wm su una nuova macchina linux Programmi necessari per l&amp;rsquo;installazione (consigliato installarli prima di i3wm):
+ Feh Blueman xbacklight gtk-theme lxappearance  Installazione e setup di i3wm:  Installare i3wm da terminale con il seguente comando:   sudo apt-get i3wm
+ Chiudere la sessione e rientrare selezionando i3wm come Desktop Enviorment.</description>
+    </item>
     
     <item>
       <title>Aggiornamento sito</title>

@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Dido&#39;s Mind</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Tue, 05 Mar 2019 09:12:42 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 07 Mar 2019 11:20:42 +0100</lastBuildDate>
     
 	<atom:link href="https://matteodido.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Code</title>
+      <link>https://matteodido.github.io/tags/code/</link>
+      <pubDate>Thu, 07 Mar 2019 11:20:42 +0100</pubDate>
+      
+      <guid>https://matteodido.github.io/tags/code/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Foto</title>
@@ -30,9 +39,18 @@
     </item>
     
     <item>
+      <title>I3wm</title>
+      <link>https://matteodido.github.io/tags/i3wm/</link>
+      <pubDate>Thu, 07 Mar 2019 11:20:42 +0100</pubDate>
+      
+      <guid>https://matteodido.github.io/tags/i3wm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Linux</title>
       <link>https://matteodido.github.io/tags/linux/</link>
-      <pubDate>Tue, 05 Mar 2019 08:39:42 +0100</pubDate>
+      <pubDate>Thu, 07 Mar 2019 11:20:42 +0100</pubDate>
       
       <guid>https://matteodido.github.io/tags/linux/</guid>
       <description></description>

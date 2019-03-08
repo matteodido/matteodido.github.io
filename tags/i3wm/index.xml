@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on Dido&#39;s Mind</title>
-    <link>https://matteodido.github.io/tags/linux/</link>
-    <description>Recent content in Linux on Dido&#39;s Mind</description>
+    <title>I3wm on Dido&#39;s Mind</title>
+    <link>https://matteodido.github.io/tags/i3wm/</link>
+    <description>Recent content in I3wm on Dido&#39;s Mind</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
     <lastBuildDate>Thu, 07 Mar 2019 11:20:42 +0100</lastBuildDate>
     
-	<atom:link href="https://matteodido.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://matteodido.github.io/tags/i3wm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,18 +20,6 @@
       <description>Installazione di i3wm su una nuova macchina linux Programmi necessari per l&amp;rsquo;installazione (consigliato installarli prima di i3wm):
  Feh Blueman xbacklight gtk-theme lxappearance  Installazione e setup di i3wm:  Installare i3wm da terminale con il seguente comando:   sudo apt-get i3wm
  Chiudere la sessione e rientrare selezionando i3wm come Desktop Enviorment.</description>
-    </item>
-    
-    <item>
-      <title>Aggiornamento sito</title>
-      <link>https://matteodido.github.io/blog/2019-03/aggiornamento-sito/</link>
-      <pubDate>Tue, 05 Mar 2019 08:39:42 +0100</pubDate>
-      
-      <guid>https://matteodido.github.io/blog/2019-03/aggiornamento-sito/</guid>
-      <description>Questa guida vuole semplificare il processo di upload di un sito realizzato con GitHub Pages, e Hugo WebDesign.  entrare nella cartella  e cancellarne il contenuto.
- aprire un terminale e nella cartella &amp;ldquo;username.github.io&amp;rdquo; eseguire il comando:
-   git pull origin master
- Il quale consente di aggiornare il contenuto della cartella.</description>
     </item>
     
   </channel>

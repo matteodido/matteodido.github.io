@@ -7,21 +7,25 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
   <meta name="author" content="Dido&#39;s Mind">
-  <meta name="description" content="[Cogito ergo sum Un posto dove riporre le idee. E cercarne di nuove.]">
+  <meta name="description" content="Installazione di i3wm su una nuova macchina linux Programmi necessari per l&rsquo;installazione (consigliato installarli prima di i3wm):
+ Feh Blueman xbacklight gtk-theme lxappearance  Installazione e setup di i3wm:  Installare i3wm da terminale con il seguente comando:   sudo apt-get i3wm
+ Chiudere la sessione e rientrare selezionando i3wm come Desktop Enviorment.">
   
-  <meta property="og:title" content="Tags" />
-<meta property="og:description" content="[Cogito ergo sum Un posto dove riporre le idee. E cercarne di nuove.]" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://matteodido.github.io/tags/" />
-<meta property="og:updated_time" content="2019-03-07T11:20:42&#43;01:00"/>
+  <meta property="og:title" content="Setup i3wm su nuova macchina" />
+<meta property="og:description" content="Installazione di i3wm su una nuova macchina linux Programmi necessari per l&rsquo;installazione (consigliato installarli prima di i3wm):
+ Feh Blueman xbacklight gtk-theme lxappearance  Installazione e setup di i3wm:  Installare i3wm da terminale con il seguente comando:   sudo apt-get i3wm
+ Chiudere la sessione e rientrare selezionando i3wm come Desktop Enviorment." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://matteodido.github.io/blog/2019-03/setup-i3wm-su-nuova-macchina/" /><meta property="article:published_time" content="2019-03-07T11:20:42&#43;01:00"/>
+<meta property="article:modified_time" content="2019-03-07T11:20:42&#43;01:00"/>
 
   <title>
   
-       Tags | Dido&#39;s Mind 
+       Setup i3wm su nuova macchina | Dido&#39;s Mind 
   
   </title>
 
-  <link rel="canonical" href="https://matteodido.github.io/tags/">
+  <link rel="canonical" href="https://matteodido.github.io/blog/2019-03/setup-i3wm-su-nuova-macchina/">
 
   
   
@@ -276,126 +280,156 @@
     
 
     
-  <main class="post-main-wrapper px-5">
+  
+  <main class="post-main-wrapper">
+    
     
     <div class="row">
+
       
-      <div class="col-md-3">
-        
-        
-        
 
-
-
-
-
+      
+      <div class="container pr-5">
+      
 
         
-        
+        <div class="z-depth-1  post-wrapper white-bg single-post">
 
+          <div class="post-header text-center" >
+  <ul class="post-meta li-x">
+    
+      
+        <li><a href="https://matteodido.github.io/categories/tutorial"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> Tutorial </a></li>
+      
+    
+    
+  </ul>
 
+  <div class="px-4 post-heading">Setup i3wm su nuova macchina</div>
 
+  <ul class="post-meta li-x mt-1">
+    
+      <li>7 Mar, 2019</li>
+    
 
-
-
-
-        
-
-
-
-
-
-
+    
+      <li class="middot"></li>
+      <li>Lettura di un minuto</li>
+    
+  </ul>
   
 
-      </div>
-      
-
-      
-      
-      <div class="col-md-9 mt-3">  
-        <ul>
-          <div class='post-heading'>
-  
-      Tags
-  
 </div>
 
+
+          <div class="post-content markdown">
+            
+
+<h3 id="installazione-di-i3wm-su-una-nuova-macchina-linux">Installazione di i3wm su una nuova macchina linux</h3>
+
+<p>Programmi necessari per l&rsquo;installazione (consigliato installarli prima di i3wm):</p>
+
+<ul>
+<li>Feh</li>
+<li>Blueman</li>
+<li>xbacklight</li>
+<li>gtk-theme</li>
+<li>lxappearance</li>
+</ul>
+
+<h4 id="installazione-e-setup-di-i3wm">Installazione e setup di i3wm:</h4>
+
+<ol>
+<li>Installare i3wm da terminale con il seguente comando:</li>
+</ol>
+
+<blockquote>
+<p>sudo apt-get i3wm</p>
+</blockquote>
+
+<p>Chiudere la sessione e rientrare selezionando i3wm come Desktop Enviorment.</p>
+
+<ol>
+<li>Creare i file i3status.conf, config e lock.sh all&rsquo;interno della cartella /home/&ldquo;username&rdquo;/.config/i3/ e copiare al loro interno il testo dei file sotto:</li>
+</ol>
+
+<blockquote>
+<p><a href="https://matteodido.github.io/links/configFile/config">config</a> <a href="https://matteodido.github.io/links/configFile/i3status.conf">i3status.conf</a> <a href="https://matteodido.github.io/links/configFile/lock.sh">lock.sh</a></p>
+</blockquote>
+
+<ol>
+<li><p>Scaricare un immagine di sfondo (in questo <a href="https://drive.google.com/open?id=1Z2EBdSFiUz_C5CmxwGl_1WtqOzV0GK4f">link</a> lo sfondo dello screenshot), rinominarlo &ldquo;t.jpg&rdquo; e posizionarlo nella cartella Scaricati del sistema.</p></li>
+
+<li><p>Scaricare il tema del sistema da questo <a href="https://drive.google.com/open?id=1IQaocurM7_RhX9q0LIvm-OlRzX1pb2Id">link</a> e copiarlo nella cartella /usr/share/themes.</p></li>
+
+<li><p>Scaricare i3-gapps e seguire le indicazioni della pagina GitHub per l&rsquo;installazione e la configurazione.</p></li>
+</ol>
+
+          </div>
+
+          
+          <div class="row">
+            <div class="col-md-8">
+            
+              <div class="mb-5">
+                
+<div class="li-x div-x post-meta">
+  <li class="pr-0"><a href="https://matteodido.github.io/tags/"><i class="fas fa-tags"></i></a></li>
+  <div class="tags-sm">
+    
+      <li><a href="https://matteodido.github.io/tags/i3wm" role="button">i3wm </a></li>
+      
+    
+      <li><a href="https://matteodido.github.io/tags/code" role="button">code </a></li>
+      
+    
+      <li><a href="https://matteodido.github.io/tags/linux" role="button">Linux </a></li>
+      
+    
+  </div>
+</div>
+              </div>
+            
+            </div>
+            
+          </div>
+          
+
+          
+          <div class="row pt-3">
+            <div class="col-md-6">
+              
+                <a href=https://matteodido.github.io/blog/2019-03/vacanza-a-roma/ class="post-meta">Precedente
+                  <div class="pt-2 pb-5 d-flex">
+                    <i class="fas fa-angle-left text-grey font-weight-bold mr-2 active-color"></i>
+                    <span>Vacanza a Roma</span>
+                  </div>
+                </a>
+              
+            </div>
+            
+            <div class="col-md-6 text-right" >
+              
+            </div>
+          </div>
+
+          
+
+        </div>
         
-            
-        </ul>
-        <ul>
-          
-          
 
-            <li class="post-item">
-              
-              <a href="linux"><span>linux</span></a>
-              
-              
-            </li>
-            
-          
-
-            <li class="post-item">
-              
-              <a href="code"><span>code</span></a>
-              
-              
-            </li>
-            
-          
-
-            <li class="post-item">
-              
-              <a href="foto"><span>foto</span></a>
-              
-              
-            </li>
-            
-          
-
-            <li class="post-item">
-              
-              <a href="html"><span>html</span></a>
-              
-              
-            </li>
-            
-          
-
-            <li class="post-item">
-              
-              <a href="i3wm"><span>i3wm</span></a>
-              
-              
-            </li>
-            
-          
-
-            <li class="post-item">
-              
-              <a href="viaggi"><span>viaggi</span></a>
-              
-              
-            </li>
-            
-          
-
-            <li class="post-item">
-              
-              <a href="web"><span>web</span></a>
-              
-              
-            </li>
-            
-          
-        </ul>
       </div>
       
+
       
+
     </div>
+    
+
+
   </main>
+  
+
 
     
     
