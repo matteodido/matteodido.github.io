@@ -12,15 +12,12 @@
     
     
     <item>
-      <title>Aggiornamento sito</title>
-      <link>https://matteodido.github.io/blog/2019-03/aggiornamento-sito/</link>
+      <title>Upload sito</title>
+      <link>https://matteodido.github.io/blog/2019-03/upload-sito/</link>
       <pubDate>Tue, 05 Mar 2019 08:39:42 +0100</pubDate>
       
-      <guid>https://matteodido.github.io/blog/2019-03/aggiornamento-sito/</guid>
-      <description>Questa guida vuole semplificare il processo di upload di un sito realizzato con GitHub Pages, e Hugo WebDesign.  entrare nella cartella  e cancellarne il contenuto.
- aprire un terminale e nella cartella &amp;ldquo;username.github.io&amp;rdquo; eseguire il comando:
-   git pull origin master
- Il quale consente di aggiornare il contenuto della cartella.</description>
+      <guid>https://matteodido.github.io/blog/2019-03/upload-sito/</guid>
+      <description>Guida per l&amp;rsquo;aggiornamento del sito. Questa guida vuole semplificare il processo di upload di un sito realizzato con GitHub Pages, e Hugo WebDesign.</description>
     </item>
     
   </channel>
