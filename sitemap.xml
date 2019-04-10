@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://matteodido.github.io/blog/2019-04/progetto-arduino-1-led-controller/</loc>
+    <lastmod>2019-04-10T18:02:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://matteodido.github.io/blog/2019-03/setup-i3wm-su-nuova-macchina/</loc>
     <lastmod>2019-03-07T11:20:42+01:00</lastmod>
   </url>
@@ -39,6 +44,12 @@
   </url>
   
   <url>
+    <loc>https://matteodido.github.io/tags/arduino/</loc>
+    <lastmod>2019-04-10T18:02:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://matteodido.github.io/categories/</loc>
     <lastmod>2019-03-05T09:12:42+01:00</lastmod>
     <priority>0</priority>
@@ -46,13 +57,13 @@
   
   <url>
     <loc>https://matteodido.github.io/tags/code/</loc>
-    <lastmod>2019-03-07T11:20:42+01:00</lastmod>
+    <lastmod>2019-04-10T18:02:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://matteodido.github.io/</loc>
-    <lastmod>2019-03-07T11:20:42+01:00</lastmod>
+    <lastmod>2019-04-10T18:02:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -75,6 +86,12 @@
   </url>
   
   <url>
+    <loc>https://matteodido.github.io/tags/led/</loc>
+    <lastmod>2019-04-10T18:02:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://matteodido.github.io/tags/linux/</loc>
     <lastmod>2019-03-07T11:20:42+01:00</lastmod>
     <priority>0</priority>
@@ -87,13 +104,19 @@
   </url>
   
   <url>
+    <loc>https://matteodido.github.io/categories/progetti/</loc>
+    <lastmod>2019-04-10T18:02:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://matteodido.github.io/series/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://matteodido.github.io/tags/</loc>
-    <lastmod>2019-03-07T11:20:42+01:00</lastmod>
+    <lastmod>2019-04-10T18:02:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,15 +6,24 @@
     <description>Recent content in Tags on Dido&#39;s Mind</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Thu, 07 Mar 2019 11:20:42 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 10 Apr 2019 18:02:00 +0100</lastBuildDate>
     
 	<atom:link href="https://matteodido.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Arduino</title>
+      <link>https://matteodido.github.io/tags/arduino/</link>
+      <pubDate>Wed, 10 Apr 2019 18:02:00 +0100</pubDate>
+      
+      <guid>https://matteodido.github.io/tags/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Code</title>
       <link>https://matteodido.github.io/tags/code/</link>
-      <pubDate>Thu, 07 Mar 2019 11:20:42 +0100</pubDate>
+      <pubDate>Wed, 10 Apr 2019 18:02:00 +0100</pubDate>
       
       <guid>https://matteodido.github.io/tags/code/</guid>
       <description></description>
@@ -44,6 +53,15 @@
       <pubDate>Thu, 07 Mar 2019 11:20:42 +0100</pubDate>
       
       <guid>https://matteodido.github.io/tags/i3wm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Led</title>
+      <link>https://matteodido.github.io/tags/led/</link>
+      <pubDate>Wed, 10 Apr 2019 18:02:00 +0100</pubDate>
+      
+      <guid>https://matteodido.github.io/tags/led/</guid>
       <description></description>
     </item>
     

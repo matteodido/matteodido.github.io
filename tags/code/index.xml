@@ -6,10 +6,19 @@
     <description>Recent content in Code on Dido&#39;s Mind</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Thu, 07 Mar 2019 11:20:42 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 10 Apr 2019 18:02:00 +0100</lastBuildDate>
     
 	<atom:link href="https://matteodido.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Progetto Arduino 1: Led controller</title>
+      <link>https://matteodido.github.io/blog/2019-04/progetto-arduino-1-led-controller/</link>
+      <pubDate>Wed, 10 Apr 2019 18:02:00 +0100</pubDate>
+      
+      <guid>https://matteodido.github.io/blog/2019-04/progetto-arduino-1-led-controller/</guid>
+      <description> Progetto n.1 con Arduino Controller LED con tasti fisici   </description>
+    </item>
     
     <item>
       <title>Setup i3wm su nuova macchina</title>
