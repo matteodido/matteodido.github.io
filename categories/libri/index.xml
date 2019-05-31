@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Libri on Dido&#39;s Mind</title>
+    <link>https://matteodido.github.io/categories/libri/</link>
+    <description>Recent content in Libri on Dido&#39;s Mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Sun, 14 Apr 2019 14:28:42 +0100</lastBuildDate>
+    
+	<atom:link href="https://matteodido.github.io/categories/libri/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Obbiettivo 12 libri all&#39;anno</title>
+      <link>https://matteodido.github.io/blog/2019-04/obbiettivo-12-libri-allanno/</link>
+      <pubDate>Sun, 14 Apr 2019 14:28:42 +0100</pubDate>
+      
+      <guid>https://matteodido.github.io/blog/2019-04/obbiettivo-12-libri-allanno/</guid>
+      <description>Un libro al mese per un anno. In questo post sul blog riporterò i progressi nel corso dei mesi di questo mio obbiettivo posto ad inzio del 2019, sperando di riuscire a portarlo a termine nella sua interezza, o di almeno arrivarci vicino.</description>
+    </item>
+    
+  </channel>
+</rss>

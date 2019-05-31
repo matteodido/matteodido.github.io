@@ -7,21 +7,21 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
   <meta name="author" content="Dido&#39;s Mind">
-  <meta name="description" content="Installazione di i3wm su una nuova macchina linux Questa guida vuole semplificare il setup del windows manager i3/i3-gaps su una nuova macchina appena installata, con il tempo verranno aggiunti ulteriori configurazioni per vari temi.">
+  <meta name="description" content="Progetto n.1 con Arduino Cestino automatico Il primo progetto che sarà presente nel sito è anche il più recente, si tratta di un cestino con apertura del coperchio automatica, in base al passaggio o meno di un oggetto davanti al sensore.">
   
-  <meta property="og:title" content="Setup i3wm su nuova macchina" />
-<meta property="og:description" content="Installazione di i3wm su una nuova macchina linux Questa guida vuole semplificare il setup del windows manager i3/i3-gaps su una nuova macchina appena installata, con il tempo verranno aggiunti ulteriori configurazioni per vari temi." />
+  <meta property="og:title" content="Progetto Arduino 1: Cestino Automatico" />
+<meta property="og:description" content="Progetto n.1 con Arduino Cestino automatico Il primo progetto che sarà presente nel sito è anche il più recente, si tratta di un cestino con apertura del coperchio automatica, in base al passaggio o meno di un oggetto davanti al sensore." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://matteodido.github.io/blog/2019-03/setup-i3wm-su-nuova-macchina/" /><meta property="article:published_time" content="2019-03-07T11:20:42&#43;01:00"/>
-<meta property="article:modified_time" content="2019-03-07T11:20:42&#43;01:00"/>
+<meta property="og:url" content="https://matteodido.github.io/blog/2019-05/progetto-arduino-1-cestino-automatico/" /><meta property="article:published_time" content="2019-05-13T19:02:00&#43;01:00"/>
+<meta property="article:modified_time" content="2019-05-13T19:02:00&#43;01:00"/>
 
   <title>
   
-       Setup i3wm su nuova macchina | Dido&#39;s Mind 
+       Progetto Arduino 1: Cestino Automatico | Dido&#39;s Mind 
   
   </title>
 
-  <link rel="canonical" href="https://matteodido.github.io/blog/2019-03/setup-i3wm-su-nuova-macchina/">
+  <link rel="canonical" href="https://matteodido.github.io/blog/2019-05/progetto-arduino-1-cestino-automatico/">
 
   
   
@@ -300,22 +300,22 @@
   <ul class="post-meta li-x">
     
       
-        <li><a href="https://matteodido.github.io/categories/tutorial"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> Tutorial </a></li>
+        <li><a href="https://matteodido.github.io/categories/progetti"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> Progetti </a></li>
       
     
     
   </ul>
 
-  <div class="px-4 post-heading">Setup i3wm su nuova macchina</div>
+  <div class="px-4 post-heading">Progetto Arduino 1: Cestino Automatico</div>
 
   <ul class="post-meta li-x mt-1">
     
-      <li>7 Mar, 2019</li>
+      <li>13 May, 2019</li>
     
 
     
       <li class="middot"></li>
-      <li>Lettura di un minuto</li>
+      <li>Lettura da 2 minuti</li>
     
   </ul>
   
@@ -326,53 +326,80 @@
           <div class="post-content markdown">
             
 
-<h3 id="installazione-di-i3wm-su-una-nuova-macchina-linux">Installazione di i3wm su una nuova macchina linux</h3>
+<h1 id="progetto-n-1-con-arduino">Progetto n.1 con Arduino</h1>
 
-<h6 id="questa-guida-vuole-semplificare-il-setup-del-windows-manager-i3-i3-gaps-su-una-nuova-macchina-appena-installata-con-il-tempo-verranno-aggiunti-ulteriori-configurazioni-per-vari-temi">Questa guida vuole semplificare il setup del windows manager i3/i3-gaps su una nuova macchina appena installata, con il tempo verranno aggiunti ulteriori configurazioni per vari temi.</h6>
+<h3 id="cestino-automatico">Cestino automatico</h3>
 
-<p>Programmi necessari per l&rsquo;installazione (consigliato installarli prima di i3wm):</p>
+<p>Il primo progetto che sarà presente nel sito è anche il più recente, si tratta di un cestino con apertura del coperchio automatica, in base al passaggio o meno di un oggetto davanti al sensore.</p>
 
-<ul>
-<li>Feh</li>
-<li>Blueman</li>
-<li>xbacklight</li>
-<li>gtk-theme</li>
-<li>lxappearance</li>
-</ul>
+<p>i componenti utilizzati per questo progetto sono:</p>
 
-<h4 id="installazione-e-setup-di-i3wm">Installazione e setup di i3wm:</h4>
+<p>1) Arduino</p>
 
-<ul>
-<li>Installare i3wm da terminale con il seguente comando:</li>
-</ul>
+<p>2) Sensore ultrasuoni HC-SR04</p>
 
-<blockquote>
-<p>sudo apt-get i3wm</p>
-</blockquote>
+<p>3) Motore Servo</p>
 
-<p>Chiudere la sessione e rientrare selezionando i3wm come Desktop Enviorment.</p>
+<p>4) Breadboard o fili per il collegamento</p>
 
-<ul>
-<li>Creare i file i3status.conf, config e lock.sh all&rsquo;interno della cartella /home/&ldquo;username&rdquo;/.config/i3/ e copiare al loro interno il testo dei file sotto:</li>
-</ul>
+<p>Collegare i vari componenti come nello schema sottostante e caricare nella memoria del controllore il codice descritto sotto.</p>
 
-<blockquote>
-<p><a href="https://matteodido.github.io/links/configFile/config">config</a>    <a href="https://matteodido.github.io/links/configFile/i3status.conf">i3status.conf</a>     <a href="https://matteodido.github.io/links/configFile/lock.sh">lock.sh</a></p>
-</blockquote>
+<p><img src="https://matteodido.github.io/img/progetti/progetto1cestino.jpg" alt="" title="Schema Collegamenti" /></p>
 
-<ul>
-<li><p>Scaricare un immagine di sfondo (in questo <a href="https://drive.google.com/open?id=1Z2EBdSFiUz_C5CmxwGl_1WtqOzV0GK4f">link</a> lo sfondo dello screenshot), rinominarlo &ldquo;t.jpg&rdquo; e posizionarlo nella cartella Scaricati del sistema.</p></li>
+<pre><code class="language-c++">#include &lt;Servo.h&gt; //include la Libreria Servo.h
 
-<li><p>Scaricare il tema del sistema da questo <a href="https://drive.google.com/open?id=1IQaocurM7_RhX9q0LIvm-OlRzX1pb2Id">link</a> e copiarlo nella cartella /usr/share/themes.</p></li>
+Servo myservo;//crea l’oggetto di tipo Servo, myservo sarà il motore utilizzato
 
-<li><p>Scaricare i3-gapps e seguire le indicazioni della pagina GitHub per l&rsquo;installazione e la configurazione.</p></li>
-</ul>
+int pos = 0;    //inizializza una variabile di tipo intero pos il cui valore sarà la posizione da impartire al servo
+int trigPin = 9;    //Variabile che indica il pin di Arduino al quale è attaccato il pin Trigger del sensore ad ultrasuoni
+int echoPin = 10;    //Variabile che indica il pin di Arduino al quale è attaccato il pin Echo del sensore ad ultrasuoni
+long duration, cm, inches; //Variabili per misurare la distanza dell'oggetto rilevato 
+int CestStatus = 0; //stato del cestino (0 chiuso / 1 aperto)
+ 
+void setup() {
+  Serial.begin (9600); //Inizia il collegamento alla porta seriale
+  //Define inputs and outputs
+  pinMode(trigPin, OUTPUT); //Definisce i pin di INPUT e OUTPUT
+  pinMode(echoPin, INPUT);
+  myservo.attach(8); // Lega l’oggetto myservo al pin a cui è stato collegato il servo
+  myservo.write(pos); //Sposta il motore nella posizione iniziale pos=0
+}
+ 
+void loop() {
+  // Il sensore è attivato da pulsazioni HIGH di 10 microsecondi o più
+  // Da un piccolo segnale LOW prima, per assicurare un impulso HIGH pulito
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(5);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+ 
+  // Legge il segnale dal sensore e calcola il tempo trascorso dall'invio al ritorno
+  pinMode(echoPin, INPUT);
+  duration = pulseIn(echoPin, HIGH);
+ 
+  // Converte il tempo in distanza
+  cm = (duration/2) / 29.1;     // Si divide per 29.1 o moltiplica per 0.0343
+  inches = (duration/2) / 74;   // Si divide per 74 o si moltiplica per 0.0135
+  
+  //Stampa nel monitor seriale la distanza dell'oggetto in cm
+  Serial.print(cm); 
+  Serial.print(&quot;cm&quot;);
 
-<p><img src="https://matteodido.github.io/img/screenshot/workflow1.png" alt="" title="i3wm" /></p>
-
-<blockquote>
-<p>Screenshot i3wm</p>
-</blockquote>
+  if (cm &lt; 15){  //Se l'oggetto si trova a una distanza &lt; 15cm allora cambia lo stato del cestino e alza il coperchio
+    Serial.print(&quot;Aperto&quot;);
+    CestStatus == 1;
+    myservo.write(pos+100);
+  }
+  else{  //Altrimenti chiude o tiene chiuso il cestino
+    delay(1000); //tempo in più per togliere la mano dal cestino
+    Serial.print(&quot;Chiuso&quot;);
+    CestStatus == 0;
+    myservo.write(pos);
+  }
+  delay(200); //tempo tra un refresh delle misure e l'altro
+}
+</code></pre>
 
           </div>
 
@@ -386,13 +413,10 @@
   <li class="pr-0"><a href="https://matteodido.github.io/tags/"><i class="fas fa-tags"></i></a></li>
   <div class="tags-sm">
     
-      <li><a href="https://matteodido.github.io/tags/i3wm" role="button">i3wm </a></li>
-      
-    
       <li><a href="https://matteodido.github.io/tags/code" role="button">code </a></li>
       
     
-      <li><a href="https://matteodido.github.io/tags/linux" role="button">Linux </a></li>
+      <li><a href="https://matteodido.github.io/tags/arduino" role="button">Arduino </a></li>
       
     
   </div>
@@ -408,23 +432,16 @@
           <div class="row pt-3">
             <div class="col-md-6">
               
-                <a href=https://matteodido.github.io/blog/2019-03/vacanza-a-roma/ class="post-meta">Precedente
+                <a href=https://matteodido.github.io/blog/2019-04/obbiettivo-12-libri-allanno/ class="post-meta">Precedente
                   <div class="pt-2 pb-5 d-flex">
                     <i class="fas fa-angle-left text-grey font-weight-bold mr-2 active-color"></i>
-                    <span>Vacanza a Roma</span>
+                    <span>Obbiettivo 12 libri all&#39;anno</span>
                   </div>
                 </a>
               
             </div>
             
             <div class="col-md-6 text-right" >
-              
-                <a href=https://matteodido.github.io/blog/2019-04/obbiettivo-12-libri-allanno/ class="post-meta">Prossimo
-                  <div class="pt-2 pb-5 flex-reverse">
-                    <i class="fas fa-angle-right text-grey font-weight-bold ml-2 active-color"></i>
-                    <span>Obbiettivo 12 libri all&#39;anno</span>
-                  </div>
-                </a>
               
             </div>
           </div>
